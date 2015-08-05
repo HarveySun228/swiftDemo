@@ -1,0 +1,1 @@
+// 定义一个Eatable协议protocol Eatable{	func taste()}// 通过扩展让String实现Eatable协议extension String : Eatable{	// 实现Eatable协议中的方法	func taste()	{		println("\(self)吃起来味道不错，呵呵")	}}func eat(foods : Eatable...)  // ①{	// 遍历foods个数可变的参数，foods相当于数组	for food in foods	{		food.taste()	}}// 调用eat()方法，并传入3个String作为Eatable实例eat("Swift", "Objective-C", "iOS")

@@ -1,0 +1,1 @@
+println("Hello World")println("Hello"); println("World")// 定义一个Person类class Person {}// 定义一个函数func info(){	println("Hello")}

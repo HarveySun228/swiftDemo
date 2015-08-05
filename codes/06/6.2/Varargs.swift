@@ -1,0 +1,1 @@
+// 定义了形参个数可变的函数func test(a : Int , books : String...){	println(books)	// books被当成数组处理	for tmp in books	{		println(tmp)	}	// 输出整数变量a的值	println(a)}// 调用test()函数test(5 , "疯狂iOS讲义" , "疯狂Android讲义")

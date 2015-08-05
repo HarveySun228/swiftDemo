@@ -1,0 +1,1 @@
+class MyClass: MyProtocol{	var name : String	init(name: String)	{		self.name = name	}	// 实现协议中的可选属性	var status: String 	{		if countElements(name) < 10		{			return "良好"		}		else		{			return "超长"		}	}	// 实现协议中的可选方法	func increment(val: Int)	{		println("系统正在增加长度")		for idx in 1...val		{			name += "="		}	}}

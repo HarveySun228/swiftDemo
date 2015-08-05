@@ -1,0 +1,1 @@
+// 实现Incrementable协议struct FkRange : Incrementable{	var start: Double	var length: Double	// 实现协议中的可变方法，依然使用mutating修饰	mutating func incrementByDelta(delta: Double)	{		self.length += delta	}}

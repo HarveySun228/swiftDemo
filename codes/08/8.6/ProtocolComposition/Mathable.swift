@@ -1,0 +1,1 @@
+protocol Mathable{	class var pi: Double {get}	class var e: Double {get}}

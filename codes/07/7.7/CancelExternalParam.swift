@@ -1,0 +1,1 @@
+class Person{	var name: String	// 定义一个构造器	init(name: String)	{		self.name = name	}	// 定义一个方法，使用_取消该方法第二个、第三个形参的隐式的外部形参名	func eat(food : String , _ drink : String , _ cigarette : String)	{		println("\(self.name)吃着\(food)，喝着\(drink)，抽着\(cigarette)")	}}var p = Person(name: "猪八戒")p.eat("炸鸡" , "啤酒" , "雪茄")

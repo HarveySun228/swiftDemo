@@ -1,0 +1,1 @@
+// 使用var定义变量形参func girth(var #width:Double , #height:Double) -> Double{	// width是变量形参，因此可以重新赋值	width = (width + height) * 2	return width}var w = 2.3println(girth(width:w , height:12.3))println(w) // 依然输出2.3

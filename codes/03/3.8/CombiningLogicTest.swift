@@ -1,0 +1,1 @@
+var bookName = "疯狂Swifts"var price = 79var version = "正式版"if bookName.hasSuffix("Swift") && (price < 50 || version == "正式版"){	println("打算购买这本Swift图书")}else{	println("不购买！")}

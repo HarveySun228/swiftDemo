@@ -1,0 +1,1 @@
+var str = "fkit.org"var str2 = String()// 将str2与str拼接后赋值给str2str2 = str2 + str// 判断str与str2是否相等，程序将会输出trueprintln(str == str2)var hasFkPrefix : Bool = str.hasPrefix("fk")var hasOrgSuffix : Bool = str.hasSuffix("org")// 判断str是否有特定前缀println("str是否以fk开头:\(hasFkPrefix)")// 判断str是否有特定后缀println("str是否以org结尾:\(hasOrgSuffix)")

@@ -1,0 +1,1 @@
+struct FkRange{	var start: Int	var length : Int	// 定义一个方法，为第二个参数显式指定外部形参名，第三个参数将使用默认的外部形参名	func info(color:String , w width:Double , height:Double)	{		println("在宽:\(width)，高:\(height)的纸张上使用\(color)颜色画图")		println("绘制范围为\(self.start)->\(self.length)")	}}var r = FkRange(start:5 , length:10)// 调用info方法，通过外部形参名传入参数值r.info("红色" , w:12.1 , height:23.5)

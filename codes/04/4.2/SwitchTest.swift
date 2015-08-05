@@ -1,0 +1,1 @@
+var score = "C"// 执行swicth分支语句switch score{	case "A": 		println("优秀.")	case "B": 		println("良好.")	case "C": 		println("中.")	case "D": 		println("及格.")	case "F": 		println("不及格.")	default: 		println("成绩输入错误")}

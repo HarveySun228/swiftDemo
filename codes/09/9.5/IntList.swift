@@ -1,0 +1,1 @@
+struct IntList: Container{	// 显式指定ItemType类型代表了Int类型//	typealias ItemType = Int  // ①	var items = [Int]()	// 向该容器中添加一个元素	mutating func append(item: Int)	{		items.append(item)	}	// 获取容器中元素的个数	var count: Int	{		return items.count	}	// 根据索引来元素	subscript(i: Int) -> Int 	{		return items[i]	}}

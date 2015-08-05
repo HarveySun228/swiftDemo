@@ -1,0 +1,1 @@
+var names = ["孙悟空" , "猪八戒" , "唐僧"]// 将names赋值给cp1、cp2实际上会先复制数组的2个副本，// 然后分别将2个副本赋值给cp1、 cp2var cp1 = names;var cp2 = names;// 由于names数组的元素是String，也是值类型，// 因此程序会将数组元素也复制一份副本，// 因此程序对cp1[0]、 cp2[0]的修改只是修改各自的副本，相互之间不会产生任何影响cp1[0] += "齐天大圣"cp2[0] += "弼马温"println(names[0])println(cp1[0])println(cp2[0])

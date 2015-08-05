@@ -1,0 +1,1 @@
+class ReturnSelf{	var age : Int = 0	func grow() -> ReturnSelf	{		age++		// return self返回该方法的调用者		return self	}}var rt = ReturnSelf()// 可以连续调用同一个方法rt.grow()	.grow()	.grow()println("rt的age属性值是:\(rt.age)")

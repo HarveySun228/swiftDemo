@@ -1,0 +1,1 @@
+class Company{	var name = "疯狂软件教育中心"	var addr = "广州市天河区"	init(name: String , addr: String)	{		self.name = name		self.addr = addr	}}

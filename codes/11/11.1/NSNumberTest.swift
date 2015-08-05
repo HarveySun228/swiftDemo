@@ -1,0 +1,1 @@
+import Foundation// 将int类型的值包装成NSNumber对象let num: NSNumber = NSNumber(int:20)// 将double类型的值包装成NSNumber对象let de: NSNumber = NSNumber(double:3.4)// 获取NSNumber所包装的基本类型的值println("\(num.intValue)")println("\(de.doubleValue)")// 调用CChar构造器将97转为CChar，再调用构造器将97包装成NSNumberlet ch:NSNumber = NSNumber(char: CChar(97))// 获取NSNumber所包装的基本类型的值println("\(ch)")

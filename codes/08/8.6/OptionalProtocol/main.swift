@@ -1,0 +1,1 @@
+var mp: MyProtocol = MyClass(name: "疯狂软件")// 访问属性println(mp.status) // 输出 Optional("良好")    ①// 访问下标println(mp[2]) // 输出 nil    ②// 使用可选链调用方法mp.increment?(10)  // ③println(mp.status) // 输出 Optional("超长")var ec: MyProtocol = EmptyClass()println(ec.status) // 输出 nilprintln(ec[2]) // 输出 nilec.increment?(10)

@@ -1,0 +1,1 @@
+var str : String! = "fkit.org"// 如果可选变量str有值，将值赋值给tmp变量。if var tmp = str{	println("str的值为：\(tmp)")}else{	println("str的值为nil，不能解析！")}

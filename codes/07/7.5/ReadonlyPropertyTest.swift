@@ -1,0 +1,1 @@
+class User{	var first:String = ""	var last :String = ""	// 定义只读计算属性，只有get部分，省略get和花括号	var fullName :String{		return first + "-" + last	}	init(first:String , last:String)	{		self.first = first		self.last = last	}}let s = User(first:"悟空" , last:"孙")println(s.fullName)  // 输出 悟空-孙

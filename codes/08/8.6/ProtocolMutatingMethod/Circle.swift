@@ -1,0 +1,1 @@
+// 实现Incrementable协议class Circle : Incrementable{	var radius: Double	init(radius: Double)	{		self.radius = radius	}	// 实现协议中的可变方法，无需使用mutating修饰	func incrementByDelta(delta: Double)	{		self.radius += delta	}}

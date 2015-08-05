@@ -1,0 +1,1 @@
+// 创建Apple实例var a = Apple()// Apple本身没有weight属性// 因为Apple的父类有weight属性，也可以访问Apple实例的weight属性a.weight = 56a.name = "红富士"// 调用Apple实例的info()方法a.info()a.taste()

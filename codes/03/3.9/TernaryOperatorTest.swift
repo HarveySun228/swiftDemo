@@ -1,0 +1,1 @@
+var a = 5var b = 3var str = a > b ? "a大于b" : "a不大于b"// 输出"a大于b"println(str)var str2: String! = nilif a > b{	str2 = "a大于b"}else{	str2 = "a不大于b"}// 输出"a大于b"println(str2)// 输出"a大于b"a > b ? println("a大于b") : println("a不大于b")var c = 5var d = 5// 下面将输出c等于dc > d ? println("c大于d") : (c < d ? println("c小于d") : println("c等于d"))

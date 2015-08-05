@@ -1,0 +1,1 @@
+class Bird{	// Bird类的fly()方法	func fly()	{		println("我在天空里自由自在地飞翔...")	}}class Ostrich : Bird{	// 重写Bird类的fly()方法	override func fly()	{		println("我只能在地上奔跑...")	}}// 创建Ostrich实例var os = Ostrich()// 执行Ostrich实例的fly()方法，将输出"我只能在地上奔跑..."os.fly()

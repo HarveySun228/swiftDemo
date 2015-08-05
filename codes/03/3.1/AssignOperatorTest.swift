@@ -1,0 +1,1 @@
+// 为变量str赋值为Swiftvar str = "Swift"// 为变量pi赋值为3.14var pi:Double = 3.14// 为变量visited赋值为YESvar visited:Bool = true// 将变量str的值赋给str2var str2 : String = strvar a:Int// 由于赋值表达式a=20实际上并没有值，因此编译器会对变量b发出警告var b = a = 20var d1: Double = 12.34// 将表达式的值赋给d2var d2 = d1 + 5// 输出d2的值println("d2的值为：\(d2)")

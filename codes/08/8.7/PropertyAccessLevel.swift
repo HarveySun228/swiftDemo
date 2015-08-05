@@ -1,0 +1,1 @@
+private class Foo{}class Bar{	// 下面属性必须显式声明为private的	private var bar: Foo = Foo()}

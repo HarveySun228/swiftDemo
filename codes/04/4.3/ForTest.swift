@@ -1,0 +1,1 @@
+// 循环的初始化条件,循环条件，循环迭代语句都在下面一行for var count = 0 ; count < 10 ; count++{	println("count: \(count)")}println("循环结束!")

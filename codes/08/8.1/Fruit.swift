@@ -1,0 +1,1 @@
+class Fruit{	var weight = 0.0	func info()	{		println("我是一个水果，重\(weight)g！")	}}

@@ -1,0 +1,1 @@
+// 定义Apple类时使用了泛型声明class Apple<T>{	// 使用T类型形参定义实例变量	var info: T	// 下面使用T类型形参来定义构造器	init(info: T)	{		self.info = info;	}}// 由于传给T形参的是String，所以构造器参数只能是Stringvar a1 = Apple<String>(info: "苹果")  // ①println("a1的info信息是：\(a1.info)")// 由于传给T形参的是Double，所以构造器参数只能是Doublevar a2 = Apple<Double>(info: 5.67)println("a2的info信息是：\(a2.info)")  // ②

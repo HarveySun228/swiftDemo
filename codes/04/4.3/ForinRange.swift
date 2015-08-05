@@ -1,0 +1,1 @@
+var max = 7var result = 1// 使用for-in循环遍历范围for num in 1...max{	result *= num}println(result)

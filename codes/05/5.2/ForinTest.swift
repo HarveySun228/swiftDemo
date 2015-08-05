@@ -1,0 +1,1 @@
+var seasons = ["spring":"春暖花开" ,	"summer":"夏日炎炎" , 	"autumn":"秋高气爽" , 	"winter":"冬雪皑皑"]// 使用for-in循环来遍历字典// 其中(season , desc)元组将会自动迭代字典的key-value对for (season , desc) in seasons{	println("\(season)-->\(desc)")}

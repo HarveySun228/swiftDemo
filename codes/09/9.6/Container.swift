@@ -1,0 +1,1 @@
+protocol Container {	// 声明类型形参，该类型形参需要等到协议被实现时才能被确定下来	typealias ItemType	// 向该容器中添加一个元素	mutating func append(item: ItemType)	// 获取容器中元素的个数	var count: Int { get }	// 根据索引来元素	subscript(i: Int) -> ItemType { get }}

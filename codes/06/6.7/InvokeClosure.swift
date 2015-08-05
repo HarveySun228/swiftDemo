@@ -1,0 +1,1 @@
+// 定义一个闭包，并为闭包表达式的形参定义外部形参名// 然后将闭包赋值给square变量var square = {(value val: Int) -> Int in	return val * val}// 使用square调用闭包println(square(5))  // 输出25println(square(6))  // 输出36// 使用闭包表达式定义闭包，并在闭包表达式后面增加圆括号来调用该闭包var result = {(#base: Int , #exponent:Int) -> Int in	var result = 1	for i in 1...exponent	{		result *= base	}	return result}(4, 3)println(result)  // 输出64

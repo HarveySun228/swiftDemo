@@ -1,0 +1,1 @@
+// 该类隐式使用internal修饰，只能在当前模块中访问class Test : Printable{	// 定义一个private属性，只能在该源文件中访问	private var count = 0	// 定义隐式使用internal修饰的方法	func increment(val: Int)	{		self.count += val	}	var description:String {		return "Test.Test[count=\(count)]"	}}

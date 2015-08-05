@@ -1,0 +1,1 @@
+protocol Fullable{	var fullColor: Color? {get set}}// 定义一个枚举作为协议属性的类型enum Color{	case Red, Green, Blue , Yellow, Cyan}	

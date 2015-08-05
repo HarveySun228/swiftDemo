@@ -1,0 +1,1 @@
+class Student: User{	var grade: Int!	init!(name: String , grade: Int) {		// 调用父类的可能失败的构造器		super.init(name:name)		println("---super.init(name:\(name))之后---")		// 如果grade小于1，使用return nil触发构造失败		if grade < 1 {			return nil  // ①		}		self.grade = grade	}}

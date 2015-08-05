@@ -1,0 +1,1 @@
+class User{	// 为类定义类型计算属性	class var nameMaxLength : Int{		get {			return 24		}		set {			println("程序尝试对User类的nameMaxLength类型计算属性赋值：\(newValue)")		}	}}println(User.nameMaxLength)User.nameMaxLength = 20

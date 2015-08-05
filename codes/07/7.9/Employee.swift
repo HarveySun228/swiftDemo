@@ -1,0 +1,1 @@
+class Employee{	var name = "白骨精"	var title = "销售客服"	var company: Company!	init(name:String , title: String)	{		self.name = name		self.title = title	}	func info()	{		println("本员工名为\(self.name)，职位是\(self.title)")	}}

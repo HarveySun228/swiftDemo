@@ -1,0 +1,1 @@
+func test(){	// 一个简单的for循环	for var i = 0; i < 10 ; i++	{		println("i的值是:\(i)");		if i == 1		{			return;		}		println("return后的输出语句")	}}test()

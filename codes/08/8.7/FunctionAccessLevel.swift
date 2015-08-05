@@ -1,0 +1,1 @@
+class Foo{}private class Bar{}// 该函数形参类型为private级别，但该函数的访问权限并不会自动设为privateprivate func someFunction(val: (Foo, Bar)){}

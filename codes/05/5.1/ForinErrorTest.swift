@@ -1,0 +1,1 @@
+var books:[String] = ["疯狂Swift讲义" , 	"疯狂iOS讲义",	"疯狂Android讲义"]// book常量将会自动迭代每个数组元素for book in books{	book = "疯狂Ajax讲义"	println(book)}

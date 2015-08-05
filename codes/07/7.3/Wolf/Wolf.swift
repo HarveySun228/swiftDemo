@@ -1,0 +1,1 @@
+class Wolf{	// 定义2个存储属性	var name: String = ""	var age: Int = 2	// 显式定义带参数的构造器	init(name:String , age:Int)	{		// 当局部变量隐藏存储属性时，		// 可用self代表调用该构造器正在初始化的实例，		// 这样即可为该构造器正在初始化的实例的存储属性赋值			self.name = name		self.age = age	}	// 定义一个info方法	func info()	{		println("我的名字是\(name), 年龄是\(age)岁")	}}var wolf = Wolf(name:"灰太狼", age:8)wolf.info()

@@ -1,0 +1,1 @@
+// 继承Fruit类（父类必须放在最前面），并实现Initable协议class Apple : Fruit , Initable{	var weight: Double	// 重写父类方法、并实现协议中的构造器，因此需要使用override required修饰	override required init(name: String)	{		self.weight = 0.0		super.init(name: name)	}	// 使用便利构造器实现协议中的构造器		required convenience init(name: String , weight: Double)	{		self.init(name: name)		self.weight = weight	}}

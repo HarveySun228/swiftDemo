@@ -1,0 +1,1 @@
+struct FixedLengthRange{	var start: Int	// 定义常量存储属性，可以不指定初始值	let length: Int	// 由于系统会为该结构体提供初始化所有存储属性的构造器，	// 因此程序可以在定义时不为实例存储属性指定初始值}// 通过构造器参数完成实例存储属性的初始化var rg = FixedLengthRange(start:2 , length:10)println("rg的起点为:\(rg.start)，长度为:\(rg.length)")rg.start = 5// length是常量存储属性，因此无法重新赋值，下面代码导致编译错误//rg.length = 8

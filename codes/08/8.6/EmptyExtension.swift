@@ -1,0 +1,1 @@
+protocol Emptyable{	var isEmpty: Bool { get }}// 通过扩展让String补充实现Emptyable协议，// 由于String已经实现了Emptyable协议的方法，因此扩展中无需任何代码extension String : Emptyable{}// 定义一个方法，该方法需要Emptyable参数func foo(arg : Emptyable){	println("arg是否为空：\(arg.isEmpty)")}// 调用foo()方法，传入String即可（String实现了Emptyable协议）foo("fkit")foo("")

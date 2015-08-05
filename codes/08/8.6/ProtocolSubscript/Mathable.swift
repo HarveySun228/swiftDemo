@@ -1,0 +1,1 @@
+protocol Mathable{	// 定义两个重载的下标	subscript(idx: Int) -> Int {get}	subscript(a: Int , b:Int) -> Int {get}}

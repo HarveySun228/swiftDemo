@@ -1,0 +1,1 @@
+// 实现Eatable协议class Apple:Eatable{	var name: String	init(name: String)	{		self.name = name	}	// 定义实例方法	func taste()	{		println("\(name)水分充分，营养丰富")	}	// 类使用class修饰类型方法	class func test(msgs: String...)	{		println("苹果实现的test方法")		for msg in msgs		{			println("个数可变的形参：\(msg)")		}	}}

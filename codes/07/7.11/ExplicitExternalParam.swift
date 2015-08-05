@@ -1,0 +1,1 @@
+struct FkPoint{	var left: Int = 0	var top: Int = 0	// 定义带两个参数的构造器，并为第二个构造器参数显式指定外部形参名	init(left: Int , y top: Int)	{		self.left = left		self.top = top	}}// 第一个形参的外部形参名与局部形参名相同// 第二个形参的外部形参名使用显式指定的形参名var p1 = FkPoint(left:20 , y:12)  // ①

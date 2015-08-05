@@ -1,0 +1,1 @@
+func test(msg:String){	println("只有一个字符串参数的test()函数 ")}// 因为前面已经有了带一个字符串参数test()函数// 此处的个数可变形参又可以包含带一个字符串参数的形式func test(books:String...){	println("****形参个数可变的test()函数****")}// 下面两次调用将执行第二个test()函数test()test("aa" , "bb")// 下面调用将导致编译错误，Swift将无法确定下面代码想调用哪个函数test("aa")  // ①

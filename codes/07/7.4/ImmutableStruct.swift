@@ -1,0 +1,1 @@
+struct FkRange{	// 定义两个变量存储属性	var start: Int	var length: Int	var wawa:String{		get{			return "ss"		}		set{			println(newValue)		}	}}// 创建FkRange实例，并将其赋值给rg常量let rg = FkRange(start : 2 , length: 10)  // ①println("rg的起点为:\(rg.start)，长度为:\(rg.length)")// 由于程序使用了let声明rg，因此rg实例是不可变的。程序不能对rg的存储属性赋值//rg.start = 4  // 编译错误rg.wawa = "5"

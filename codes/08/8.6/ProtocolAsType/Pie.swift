@@ -1,0 +1,1 @@
+// 实现Eatable协议struct Pie : Eatable{	var weight: Double	// 定义实例方法	func taste()	{		println("\(weight)斤饼干吃起来香脆可口")	}	// 结构体使用static修饰类型方法	static func test(msgs: String...)	{		println("饼干实现的test方法")		for msg in msgs		{			println("个数可变的形参：\(msg)")		}	}}

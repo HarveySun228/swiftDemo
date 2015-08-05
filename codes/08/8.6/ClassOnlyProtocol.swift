@@ -1,0 +1,1 @@
+// 使用class定义唯类协议protocol Movable : class{	func move()}class Car : Movable{	func move()	{		println("汽车在马路上飞驰...")	}}//// Bee是结构体，结构体不能实现唯类协议//struct Bee : Movable//{//	func move()//	{//		println("蜜蜂在空中飞舞...")//	}//}var move: Movable? = nil // ①

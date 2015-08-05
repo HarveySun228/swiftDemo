@@ -1,0 +1,1 @@
+var somePoint = (x:0, y:2)switch somePoint {	case (0, 0):		println("(0, 0)位于原点")	// 当y坐标为0时，进入该case块，并将元组的x成员绑定到临时变量x	case (var x, 0):		println("该点位于X轴上，其x值为：\(x)")	// 当x坐标为0时，进入该case块，并将元组的y成员绑定到临时变量y	case (0, var y):		println("该点位于Y轴上，其x值为：\(y)")	// 将元组的x成员绑定到临时变量x，将元组的y成员绑定到临时变量y		case var (x, y):		println("该点位于其他位置：\(x),\(y)")}

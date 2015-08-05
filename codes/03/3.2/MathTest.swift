@@ -1,0 +1,1 @@
+import Foundation// 定义变量a为3.2var a = 3.2// 求a的5次方，并将计算结果赋为b。var b = pow(a , 5)// 输出b的值println("b的值为：\(b)")// 求a的平方根，并将结果赋给cvar c = sqrt(a)// 输出c的值println("c的值为：\(c)")// 计算随机数,返回一个0～10之间的伪随机数。var d = arc4random() % 10// 输出随机数d的值println("d的值为：\(d)")// 求1.57的sin函数值：1.57被当成弧度数var e = sin(1.57)// 输出接近1println("e的值为：\(e)")

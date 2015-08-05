@@ -1,0 +1,1 @@
+var score = 178// 执行swicth分支语句switch score{	case 91...100:		println("优秀.")	case 81...90: 		println("良好.")	case 71...80: 		println("中.")	case 60...70: 		println("及格.")	case 0..<60: 		println("不及格.")	case let grade: 		println("您的输入的成绩 \(grade) 不合法")}

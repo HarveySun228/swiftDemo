@@ -1,0 +1,1 @@
+enum Season{	// 为枚举定义类型存储属性，使用可选类型，系统将其初始化为nil	static var desc : String?	// 为枚举定义类型存储属性，且声明为常量	static let name = "季节"	// 定义无参数的类型方法	static func info()	{		println("季节类的info方法，该类的name存储属性为：\(name)")	}	// 定义带一个参数的类型方法	static func setDesc(desc : String)	{		self.desc = desc  // ①	}	}Season.info()Season.setDesc("描述季节变化的枚举")println(Season.desc)

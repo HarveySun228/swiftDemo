@@ -1,0 +1,1 @@
+var num = 5var description = "数值 \(num) 是"switch num{	case 2, 3, 5, 7, 11, 13, 17, 19:		description += "【质数】，而且还是"		// 使用fallthrough执行贯穿		fallthrough	default:		description += "【整数】"}println(description)

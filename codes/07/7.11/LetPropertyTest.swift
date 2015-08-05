@@ -1,0 +1,1 @@
+class User{	let maxAge = 100	var name: String	init(maxAge: Int , name :String)	{		println(self.maxAge) // 输出100		self.maxAge = Int.max		println(self.maxAge) // 输出Int的最大值		self.name = name		self.maxAge = maxAge	}}var u = User(maxAge:120 , name:"白骨精")println(u.maxAge)  // 输出 120println(u.name)	 // 输出 白骨精

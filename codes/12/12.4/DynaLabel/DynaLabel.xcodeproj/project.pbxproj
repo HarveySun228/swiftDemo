@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF3CB6D19F8A79E0031E0DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CB6C19F8A79E0031E0DD /* AppDelegate.swift */; };
+		CCF3CB6F19F8A79E0031E0DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CB6E19F8A79E0031E0DD /* ViewController.swift */; };
+		CCF3CB7219F8A79E0031E0DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF3CB7019F8A79E0031E0DD /* Main.storyboard */; };
+		CCF3CB7419F8A79F0031E0DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF3CB7319F8A79F0031E0DD /* Images.xcassets */; };
+		CCF3CB7719F8A79F0031E0DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF3CB7519F8A79F0031E0DD /* LaunchScreen.xib */; };
+		CCF3CB8319F8A79F0031E0DD /* DynaLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3CB8219F8A79F0031E0DD /* DynaLabelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF3CB7D19F8A79F0031E0DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF3CB5F19F8A79E0031E0DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF3CB6619F8A79E0031E0DD;
+			remoteInfo = DynaLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF3CB6719F8A79E0031E0DD /* DynaLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynaLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF3CB6B19F8A79E0031E0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF3CB6C19F8A79E0031E0DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF3CB6E19F8A79E0031E0DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCF3CB7119F8A79E0031E0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF3CB7319F8A79F0031E0DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCF3CB7619F8A79F0031E0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCF3CB7C19F8A79F0031E0DD /* DynaLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynaLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF3CB8119F8A79F0031E0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF3CB8219F8A79F0031E0DD /* DynaLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynaLabelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF3CB6419F8A79E0031E0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3CB7919F8A79F0031E0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF3CB5E19F8A79E0031E0DD = {
+			isa = PBXGroup;
+			children = (
+				CCF3CB6919F8A79E0031E0DD /* DynaLabel */,
+				CCF3CB7F19F8A79F0031E0DD /* DynaLabelTests */,
+				CCF3CB6819F8A79E0031E0DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF3CB6819F8A79E0031E0DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3CB6719F8A79E0031E0DD /* DynaLabel.app */,
+				CCF3CB7C19F8A79F0031E0DD /* DynaLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF3CB6919F8A79E0031E0DD /* DynaLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3CB6C19F8A79E0031E0DD /* AppDelegate.swift */,
+				CCF3CB6E19F8A79E0031E0DD /* ViewController.swift */,
+				CCF3CB7019F8A79E0031E0DD /* Main.storyboard */,
+				CCF3CB7319F8A79F0031E0DD /* Images.xcassets */,
+				CCF3CB7519F8A79F0031E0DD /* LaunchScreen.xib */,
+				CCF3CB6A19F8A79E0031E0DD /* Supporting Files */,
+			);
+			path = DynaLabel;
+			sourceTree = "<group>";
+		};
+		CCF3CB6A19F8A79E0031E0DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3CB6B19F8A79E0031E0DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCF3CB7F19F8A79F0031E0DD /* DynaLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3CB8219F8A79F0031E0DD /* DynaLabelTests.swift */,
+				CCF3CB8019F8A79F0031E0DD /* Supporting Files */,
+			);
+			path = DynaLabelTests;
+			sourceTree = "<group>";
+		};
+		CCF3CB8019F8A79F0031E0DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3CB8119F8A79F0031E0DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF3CB6619F8A79E0031E0DD /* DynaLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF3CB8619F8A79F0031E0DD /* Build configuration list for PBXNativeTarget "DynaLabel" */;
+			buildPhases = (
+				CCF3CB6319F8A79E0031E0DD /* Sources */,
+				CCF3CB6419F8A79E0031E0DD /* Frameworks */,
+				CCF3CB6519F8A79E0031E0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynaLabel;
+			productName = DynaLabel;
+			productReference = CCF3CB6719F8A79E0031E0DD /* DynaLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF3CB7B19F8A79F0031E0DD /* DynaLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF3CB8919F8A79F0031E0DD /* Build configuration list for PBXNativeTarget "DynaLabelTests" */;
+			buildPhases = (
+				CCF3CB7819F8A79F0031E0DD /* Sources */,
+				CCF3CB7919F8A79F0031E0DD /* Frameworks */,
+				CCF3CB7A19F8A79F0031E0DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF3CB7E19F8A79F0031E0DD /* PBXTargetDependency */,
+			);
+			name = DynaLabelTests;
+			productName = DynaLabelTests;
+			productReference = CCF3CB7C19F8A79F0031E0DD /* DynaLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF3CB5F19F8A79E0031E0DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = crazyit.org;
+				TargetAttributes = {
+					CCF3CB6619F8A79E0031E0DD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CCF3CB7B19F8A79F0031E0DD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CCF3CB6619F8A79E0031E0DD;
+					};
+				};
+			};
+			buildConfigurationList = CCF3CB6219F8A79E0031E0DD /* Build configuration list for PBXProject "DynaLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF3CB5E19F8A79E0031E0DD;
+			productRefGroup = CCF3CB6819F8A79E0031E0DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF3CB6619F8A79E0031E0DD /* DynaLabel */,
+				CCF3CB7B19F8A79F0031E0DD /* DynaLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF3CB6519F8A79E0031E0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3CB7219F8A79E0031E0DD /* Main.storyboard in Resources */,
+				CCF3CB7719F8A79F0031E0DD /* LaunchScreen.xib in Resources */,
+				CCF3CB7419F8A79F0031E0DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3CB7A19F8A79F0031E0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF3CB6319F8A79E0031E0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3CB6F19F8A79E0031E0DD /* ViewController.swift in Sources */,
+				CCF3CB6D19F8A79E0031E0DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3CB7819F8A79F0031E0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3CB8319F8A79F0031E0DD /* DynaLabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF3CB7E19F8A79F0031E0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF3CB6619F8A79E0031E0DD /* DynaLabel */;
+			targetProxy = CCF3CB7D19F8A79F0031E0DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF3CB7019F8A79E0031E0DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF3CB7119F8A79E0031E0DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF3CB7519F8A79F0031E0DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF3CB7619F8A79F0031E0DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF3CB8419F8A79F0031E0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF3CB8519F8A79F0031E0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF3CB8719F8A79F0031E0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynaLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCF3CB8819F8A79F0031E0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynaLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCF3CB8A19F8A79F0031E0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynaLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynaLabel.app/DynaLabel";
+			};
+			name = Debug;
+		};
+		CCF3CB8B19F8A79F0031E0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynaLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynaLabel.app/DynaLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF3CB6219F8A79E0031E0DD /* Build configuration list for PBXProject "DynaLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3CB8419F8A79F0031E0DD /* Debug */,
+				CCF3CB8519F8A79F0031E0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF3CB8619F8A79F0031E0DD /* Build configuration list for PBXNativeTarget "DynaLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3CB8719F8A79F0031E0DD /* Debug */,
+				CCF3CB8819F8A79F0031E0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCF3CB8919F8A79F0031E0DD /* Build configuration list for PBXNativeTarget "DynaLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3CB8A19F8A79F0031E0DD /* Debug */,
+				CCF3CB8B19F8A79F0031E0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF3CB5F19F8A79E0031E0DD /* Project object */;
+}

@@ -1,0 +1,1 @@
+// 实现Mathable协议struct LinearStruct : Mathable{	var factor: Int	// 提供getter、setter部分，使之成为读写下标	subscript(idx: Int) -> Int	{		get{			return factor * idx		}		set{			println("执行LinearStruct的下标赋值")		}	}	// 实现只读下标	subscript(a: Int , b:Int) -> Int	{		return factor * a + b	}}

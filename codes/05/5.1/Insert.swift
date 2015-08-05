@@ -1,0 +1,1 @@
+// 使用var定义一个可变数组var languages = ["Swift"]// 插入一个元素languages.insert("Go" , atIndex:0)// 插入一个元素，指定atIndex:2，表明该元素插入数组的最后languages.insert("Lua" , atIndex:2)// 输出Go, Swift, Luaprintln(languages)println(languages.count) // 输出3// 下面代码指定atIndex超过了数组长度，因此下面代码将会导致错误languages.insert("Ruby" , atIndex:4)

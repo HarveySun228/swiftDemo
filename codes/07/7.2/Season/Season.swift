@@ -1,0 +1,1 @@
+enum Season{	// 每个case定义一个枚举实例	case Spring	case Summer	case Fall	case Winter}

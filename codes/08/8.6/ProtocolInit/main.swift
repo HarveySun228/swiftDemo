@@ -1,0 +1,1 @@
+var ap1 = Apple(name: "红富士")var ap2 = Apple(name: "花牛果" , weight: 2.3)println("\(ap2.name) , \(ap2.weight)")  // 输出 花牛果 , 2.3var bag1 = Bag(name: "书包")var bag2 = Bag(name: "旅行包" ,weight:  20.2)println("\(bag2.name) , \(bag2.weight)")  // 输出 旅行包 , 20.2

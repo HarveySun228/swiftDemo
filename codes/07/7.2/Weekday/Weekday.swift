@@ -1,0 +1,1 @@
+enum Weekday{	// 使用一个case列出7个枚举实例	case Monday, Tuesday, Wednesday , Thursday, Friday, Saturday, Sunday}

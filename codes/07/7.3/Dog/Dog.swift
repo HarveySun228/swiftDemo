@@ -1,0 +1,1 @@
+class Dog{	// 实现一个jump方法	func jump()	{		println("正在执行jump方法")	}	// 实现一个run方法，run方法需要借助jump方法	func run()	{	//		var d = Dog()	//		d.jump()		self.jump()		println("正在执行run方法")	}}

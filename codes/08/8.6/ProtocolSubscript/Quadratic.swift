@@ -1,0 +1,1 @@
+// 实现Mathable协议class Quadratic: Mathable{	var factor: Int	init(factor: Int)	{		self.factor = factor	}	// 实现只读下标	subscript(idx: Int) -> Int	{		return factor * factor * idx	}	// 实现只读下标	subscript(a: Int , b:Int) -> Int	{		return factor * factor * a + b	}}

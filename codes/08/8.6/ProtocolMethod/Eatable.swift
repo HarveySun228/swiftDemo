@@ -1,0 +1,1 @@
+protocol Eatable{	// 定义实例方法	func taste()	// 协议使用class修饰类型方法	class func test(msgs: String...)}

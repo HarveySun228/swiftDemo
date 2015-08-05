@@ -1,0 +1,1 @@
+// 定义一个协议，并让该协议实现2个父协议protocol HasArea : Fullable, Strokable{	var area: Double {get}}

@@ -1,0 +1,1 @@
+class Person{	// 下面定义了两个存储属性	var name:String = ""	var age :Int = 0	// 下面定义了一个say()方法	func say(content:String)	{		println(content)	}}

@@ -1,0 +1,1 @@
+struct Dog{	// 下面定义了两个存储属性	var name:String = ""	var age :Int = 0	// 下面定义了一个run()方法	func run()	{		println("\(name)迅速地奔跑~")	}}

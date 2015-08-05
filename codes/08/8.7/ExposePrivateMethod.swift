@@ -1,0 +1,1 @@
+public class A {	private func methodA() {}}// 子类访问权限不得高于父类访问权限internal class B: A {	override internal func methodA() 	{		// 直接回调父类的methodA		super.methodA()	}}

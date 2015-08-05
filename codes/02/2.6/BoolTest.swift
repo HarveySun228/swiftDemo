@@ -1,0 +1,1 @@
+// 定义b1的值为truevar b1 : Bool = true;// 定义b2的值为falsevar b2 : Bool = false;// 将Bool类型的变量插值到字符串中var str :String = "\(b1)代表真"println(str)

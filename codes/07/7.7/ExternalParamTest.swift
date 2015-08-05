@@ -1,0 +1,1 @@
+enum Gender{	case Male , Female	// 定义一个方法，并未给形参指定外部形参名	func info(msg : String , count : Int, name:String)	{		for index in 1...count		{			println("\(msg)---\(index)---\(name)")		}	}}Gender.Male.info("测试信息" , count:5, name:"白骨精")

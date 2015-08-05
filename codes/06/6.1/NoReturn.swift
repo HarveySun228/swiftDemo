@@ -1,0 +1,1 @@
+// 定义一个函数，该函数既无形参，也无返回值func foo(){	println("程序执行foo()函数")}// 定义一个函数，该函数没有返回值，但函数有1个形参func sayHi(name: String) -> (){	println("====程序执行sayHi()函数====")	println("\(name)，你好。欢迎光临")}// 定义一个函数，该函数没有返回值，但函数有2个形参func showMsg(msg: String , count :Int) -> Void{	for _ in 1...count	{		println(msg)	}}foo()sayHi("孙悟空")showMsg("欢迎学习Swift" , 3)

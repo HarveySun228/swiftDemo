@@ -1,0 +1,1 @@
+var dog = Dog() // 创建Dog实例dog.run()  // 调用Dog实例的run方法

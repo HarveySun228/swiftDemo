@@ -1,0 +1,1 @@
+var str = "fkit"// 由于str转换为Int有可能失败，故num有可能没有值// 因此不能使用Int来声明num的类型//var num :Int = str.toInt()var num: Int? = str.toInt()println(num)// 编译器推断n的类型为Int?var n = str.toInt() // Int类型的变量不接受nil//var age: Int = nil// Int?类型的变量才能接受nilvar age: Int? = nil// 定义myName变量，声明其类型为String?，该变量将被自动设置为nilvar myName : String?println(myName)

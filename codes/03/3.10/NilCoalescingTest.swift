@@ -1,0 +1,1 @@
+let defaultName = "孙悟空"// 定义可选类型的变量，该变量不为nilvar name1: String? = "唐僧"println(name1 ?? defaultName)  // 输出 唐僧// 定义可选类型的的变量，不指定初始值var name2: String?  // 此时name2默认值为nilprintln(name2 ?? defaultName)  // 输出 孙悟空// 使用三目运算符代替??运算符println(name1 != nil ? name1! : defaultName)  // 输出 唐僧println(name2 != nil ? name2! : defaultName)  // 输出 孙悟空

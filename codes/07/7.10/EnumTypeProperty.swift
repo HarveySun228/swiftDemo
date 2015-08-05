@@ -1,0 +1,1 @@
+enum Season{	// 为枚举定义类型存储属性，使用可选类型，系统将其初始化为nil	static var desc : String?	// 为枚举定义类型存储属性，且声明为常量	static let name = "季节"	static var info: String{		get{			return "代表季节的枚举，其desc为:\(desc)"		}		set{			println("程序尝试对info计算属性进行赋值:\(newValue)")		}	}}// 对Season枚举的类型属性赋值Season.desc = "季节类"println(Season.name)Season.info = "新的info"println(Season.info)

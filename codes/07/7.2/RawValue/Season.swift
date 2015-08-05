@@ -1,0 +1,1 @@
+enum Season : Character{	// 每个case定义一个枚举实例，为每个枚举都指定原始值	case Spring = "S"	case Summer = "U"	case Fall = "F"	case Winter = "W"}

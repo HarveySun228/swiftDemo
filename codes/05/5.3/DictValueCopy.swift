@@ -1,0 +1,1 @@
+var scores = ["语文":89 , "数学":92 , "英语":87]// 将scores赋值给cp1、cp2实际上会先复制字典的2个副本，// 然后分别将2个副本赋值给cp1、 cp2var cp1 = scores;var cp2 = scores;// 由于scores的value是Int类型，也是值类型，// 因此程序会将value也复制一份副本，// 因此程序对cp1["语文"]、 cp2["语文"]的修改只是修改各自的副本，相互之间不会产生任何影响cp1["语文"] = 60cp2["语文"] = 70println(scores["语文"])println(cp1["语文"])println(cp2["语文"])

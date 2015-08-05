@@ -1,0 +1,1 @@
+import Foundation// 可选协议必须使用@objc修饰@objc protocol MyProtocol{	// 定义可选属性	optional var status: String {get}	// 定义可选方法	optional func increment(val: Int)	// 定义可选下标	optional subscript(idx: Int) -> Int{get}}

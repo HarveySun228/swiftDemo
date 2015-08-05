@@ -1,0 +1,1 @@
+struct FkPoint{	var left: Int = 0	var top: Int = 0	// 由于该结构体中所有实例存储属性都指定了初始值，因此该结构体对构造器没有要求	// 此处随便定义一个带参数的构造器	init(left: Int)	{		self.left = left	}}var p1 = FkPoint(left:20)  // ①// 由于程序员为为结构体提供了构造器，系统不再为该结构体提供任何构造器。// 所以下面代码是错误的。//var p2 = FkPoint()//var p3 = FkPoint(left: 20 , top: 14)

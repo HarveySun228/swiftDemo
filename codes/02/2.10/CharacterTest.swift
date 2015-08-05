@@ -1,0 +1,1 @@
+var s: Character = "香"var quote1 = "\""var quote2 = "\u{22}"println("quote1的值为：\(quote1), quote2的值为：\(quote2)")// 使用Unicode形式定义4个字符var diamond : Character = "\u{2666}"var heart : Character = "\u{2663}"var club : Character = "\u{2665}"var spade : Character = "\u{2660}"println("\(diamond) \(heart) \(club) \(spade)")

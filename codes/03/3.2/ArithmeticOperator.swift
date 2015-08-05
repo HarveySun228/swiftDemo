@@ -1,0 +1,1 @@
+var a = 5.2var b = 3.1var sum = a + b// sum的值为8.3println("sum的值为：\(sum)")var c = 5.2var d = 3.1var sub = c - d// sub的值为2.1println("sub的值为：\(sub)")var e = 5.2var f = 3.1var multiply = e * f// multiply的值为16.12println("multiply的值为：\(multiply)")

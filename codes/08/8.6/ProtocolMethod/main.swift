@@ -1,0 +1,1 @@
+// 调用形参个数可变的类型方法Pie.test("饼干一" , "饼干二", "饼干三")var pie = Pie(weight:2.3)pie.taste()// 调用形参个数可变的类型方法Apple.test("苹果一" , "苹果二", "苹果三")var apple = Apple(name:"红富士")apple.taste()

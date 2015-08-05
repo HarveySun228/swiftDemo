@@ -1,0 +1,1 @@
+class Counter{	var count: Int = 0	// 定义一个方法，显式为第2个形参指定外部形参名，外部形参名用于说明该参数的作用	func incrementByStep(step: Int, numberOfTimes times: Int)	{		count += step * times	}}var ct = Counter()ct.incrementByStep(2, numberOfTimes:5)println("ct的计数器为：\(ct.count)")

@@ -1,0 +1,1 @@
+// 使用var定义一个可变数组var languages = ["Swift"]// 追加一个元素languages.append("Go")languages.append("Lua")// 输出Swift, Go, Luaprintln(languages)println(languages.count) // 输出3languages = languages + ["Ruby"]// 上面代码可简写为如下languages += ["Ruby"]// 输出Swift, Go, Lua, Ruby, Rubyprintln(languages)println(languages.count) // 输出5

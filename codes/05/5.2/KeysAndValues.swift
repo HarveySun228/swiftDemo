@@ -1,0 +1,1 @@
+var seasons = ["spring":"春暖花开" ,	"summer":"夏日炎炎" , 	"autumn":"秋高气爽" , 	"winter":"冬雪皑皑"]// 将所有seasons的所有key包装成Array集合var keys = Array(seasons.keys)// 将所有seasons的所有value包装成Array集合var values = Array(seasons.values)println(keys) // 输出[summer, spring, winter, autumn]// 下面输出[夏日炎炎, 春暖花开, 冬雪皑皑, 秋高气爽]println(values)

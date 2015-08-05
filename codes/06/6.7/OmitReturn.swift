@@ -1,0 +1,1 @@
+// 省略形参类型、返回值类型。// 由于该闭包表达式只有一行代码，因此可以省略return关键字var square:(Int) -> Int = {val in val * val}// 使用square调用闭包println(square(5))  // 输出25println(square(6))  // 输出36// 由于Swift无法推断闭包表达式的形参、返回值类型，因此不省略形参类型、返回值类型。// 由于该闭包表达式只有一行代码，因此可以省略return关键字var cube = {(val:Int) -> Int in val * val * val}// 使用cube调用闭包println(cube(5))  // 输出125println(cube(6))  // 输出216

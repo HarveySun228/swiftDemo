@@ -1,0 +1,1 @@
+class Bird{	var speed: Double = 0}class Ostrich : Bird{	// 重写Bird类的speed属性，添加属性观察者	override var speed: Double {		didSet{			// 属性值被改变完成后，将会自动执行该方法			println("改变之前的speed为：\(oldValue)")			super.speed *= speed		}	}}// 创建Ostrich实例var os = Ostrich()// 对重写后的属性赋值os.speed = 20.0// 访问被重写后的属性println("os的速度为：\(os.speed)")

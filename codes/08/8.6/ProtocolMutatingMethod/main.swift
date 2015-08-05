@@ -1,0 +1,1 @@
+var range = FkRange(start:2.0 , length:10.0)range.incrementByDelta(5.0)println(range.length)var circle = Circle(radius:3.0)circle.incrementByDelta(5.0)println(circle.radius)

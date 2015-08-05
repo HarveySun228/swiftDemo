@@ -1,0 +1,1 @@
+// 定义2个In-Out参数func swap(inout a : Int , inout b : Int){	// 在函数体内交换两个形参的值	let tmp = a	a = b	b = tmp}var a = 6var b = 9println("交换之前，a的值：\(a), b的值：\(b)")swap(&a , &b)println("交换之后，a的值：\(a), b的值：\(b)")

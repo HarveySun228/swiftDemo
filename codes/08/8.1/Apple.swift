@@ -1,0 +1,1 @@
+class Apple : Fruit{	var name: String!	func taste()	{		println("\(name)吃起来很好吃！")	}}

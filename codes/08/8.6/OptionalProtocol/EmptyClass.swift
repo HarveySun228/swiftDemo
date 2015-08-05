@@ -1,0 +1,1 @@
+// 定义一个空类，实现MyProtocol，但并不实现该协议的任何成员// 由于MyProtocol协议的所有成员都是可选的，因此该类也是合法的。class EmptyClass : MyProtocol{}

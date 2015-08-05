@@ -1,0 +1,1 @@
+struct List<E>: Container{	var items = [E]()	// 向该容器中添加一个元素	mutating func append(item: E)	{		items.append(item)	}	// 获取容器中元素的个数	var count: Int	{		return items.count	}	// 根据索引来元素	subscript(i: Int) -> E 	{		return items[i]	}}

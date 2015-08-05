@@ -1,0 +1,1 @@
+// 使用闭范围运算符定义范围var range1 = 2...6for num in range1{	println("\(num) * 5 = \(num * 5)")}println("-----下面是半开范围-----")// 定义数组let books = ["Swift" , "Objective-C" , "C" , "C++"]// 使用半开范围运算符定义范围for index in 0..<books.count{	println("第\(index+1)种语言是：\(books[index])")}

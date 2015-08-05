@@ -1,0 +1,1 @@
+struct Cat{	let name: String	init?(name: String) {		// 如果传入的name参数为空字符串，构造器失败，返回nil		if name.isEmpty {			return nil		}		self.name = name	}}let c1 = Cat(name: "Kitty")if c1 != nil {	// 创建c1的构造器是init?，因此程序必须对c1执行强制解析	println("c1的name为：\(c1!.name)")}let c2 = Cat(name: "")println(c2 == nil) // 输出true，表明c2为nil

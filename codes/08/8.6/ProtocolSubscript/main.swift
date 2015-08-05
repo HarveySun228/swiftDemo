@@ -1,0 +1,1 @@
+var q = Quadratic(factor: 5)println(q[4])  // 输出100println(q[4 , 6])  // 输出106var line = LinearStruct(factor:5)println(line[4])  // 输出20println(line[4 , 6])  // 输出26

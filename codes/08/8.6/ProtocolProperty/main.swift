@@ -1,0 +1,1 @@
+var rect = Rect(width:4.5, height:4.0)println(rect.area)rect.fullColor = Color.Redrect.strokeWidth = 1.0println(rect.fullColor)println(rect.strokeWidth)var circle = Circle(radius: 2.0)println(circle.area)circle.fullColor = Color.Greencircle.strokeWidth = 0.5println(circle.fullColor)println(circle.strokeWidth)

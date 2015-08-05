@@ -1,0 +1,1 @@
+let s1 = Student(name: "孙悟空" , grade: 4)println("s1的name:\(s1.name),s1的grade:\(s1.grade)")let s2 = Student(name: "白骨精", grade: 0)println(s2 == nil) // 输出truelet s3 = Student(name: "" , grade:3)println(s3 == nil) // 输出true

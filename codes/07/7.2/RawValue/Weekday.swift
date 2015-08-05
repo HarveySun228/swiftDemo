@@ -1,0 +1,1 @@
+// 定义枚举，指定该枚举的原始值的类型为Intenum Weekday: Int{	// 使用一个case列出7个枚举实例	case Monday, Tuesday = 1, Wednesday = 5, Thursday, Friday, Saturday, Sunday}

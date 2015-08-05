@@ -1,0 +1,1 @@
+struct FkRange{	// 为结构体定义类型存储属性，使用可选类型，系统将其初始化为nil	static var desc : String?	// 为结构体定义类型存储属性，且声明为常量	static let maxWidth = 10000	static let maxHeight = 40000	// 定义类型计算属性，该属性只有get部分，是一个只读属性	static var maxArea: Int{		return maxWidth * maxHeight	}}FkRange.desc = "描述范围的结构体"println(FkRange.desc)println(FkRange.maxWidth)println(FkRange.maxHeight)println(FkRange.maxArea)

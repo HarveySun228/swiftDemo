@@ -1,0 +1,1 @@
+// 把for循环的初始化条件提出来独立定义var count = 0// for循环里只放循环条件for ; count < 10 ; {	println("count: \(count)")	// 把循环迭代部分放在循环体之后定义	count++}println("循环结束!")// 此处将还可以访问count变量var tmp = 0// 循环的初始化条件,循环条件，循环迭代语句都在下面一行for var i = 0 ; i < 10 ; i++{	println("i的值: \(i)")	// 使用tmp来保存循环变量i的值。	tmp = i}println("循环结束!")// 此处还可通过tmp变量来访问i变量的值。
